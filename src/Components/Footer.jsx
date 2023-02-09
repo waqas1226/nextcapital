@@ -1,5 +1,5 @@
 import { Facebook, Instagram, LinkedIn, Twitter } from '@mui/icons-material';
-import React from 'react';
+import React, { useState } from 'react';
 import secp from '../Images/secp.jpg';
 import psx from '../Images/psx.jpg';
 import cdc from '../Images/cdc.jpg';
@@ -8,6 +8,7 @@ import farm from '../Images/farm.jpg';
 
 
 function Footer(props) {
+
     return (
 <footer className="my-20">
 <div className="w-11/12 mx-auto flex flex-col gap-8 text-sm">
@@ -26,10 +27,10 @@ function Footer(props) {
     <div className="flex items-center">
 
       <a href="#" className=""><img src={secp} alt="icon" className="max-w-[50px]"/></a>
-      <a href="#" className=""><img src={psx} alt="icon"/></a>
-      <a href="#" className=""><img src={cdc} alt="icon"/></a>
-      <a href="#" className=""><img src={ncc} alt="icon"/></a>
-      <a href="#" className=""><img src={farm} alt="icon"/></a>
+      <a href="#" className=""><img src={psx} alt="icon"className="max-w-[50px]"/></a>
+      <a href="#" className=""><img src={cdc} alt="icon"className="max-w-[50px]"/></a>
+      <a href="#" className=""><img src={ncc} alt="icon"className="max-w-[50px]"/></a>
+      <a href="#" className=""><img src={farm} alt="icon"className="max-w-[50px]"/></a>
     </div>
     <div className="flex gap-6 bg-gray-200  rounded-lg p-3 ml-auto">
       <div className="flex w-20 flex-col">
@@ -50,6 +51,7 @@ function Footer(props) {
   <div className="flex flex-col sm:flex-row items-center justify-between">
     <h2 className=" text-lg font-bold">© 2022 Next Capital Limited. All Rights Reserved.</h2>
     <div className="flex gap-2">
+ 
       <Facebook/>
       <Twitter/>
       <Instagram/>

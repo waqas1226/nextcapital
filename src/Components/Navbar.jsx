@@ -12,15 +12,16 @@ function NavBar(props) {
     <nav className="sticky top-0 py-3 sm:py-1 z-10 bg-white shadow">
       <div className="nav flex items-center justify-between relative text-slate-500 text-sm sm:text-xs font-bold">
         <a href="#" className="mr-4"><img src={icon} alt="icon" className="max-w-[160px] mr-auto" /></a>
-        <span style={{ backgroundColor: visible ? '#e92a5e' : 'white', color: visible ? 'white' : 'black' }} className="menu rounded-lg p-1 mr-3 w-8 grid place-items-center cursor-pointer lg:hidden">
+        <span style={{ backgroundColor: visible ? '#e92a5e' : 'white', color: visible ? 'white' : 'black' }} className="menu rounded-lg p-1 mr-3 ml-auto w-8 grid place-items-center cursor-pointer lg:hidden">
           <MenuOutlined onClick={() => setVisible(!visible)} className="redOnHover" />
           </span>
 
 
-        <div className={visible?'navitemsSm':"navitemsForlg"}>
+        <div className={`bg-white navitemsForlg flex-col gap-3 items-center justify-between my-12 py-2 sm:my-2 absolute w-full top-3 sm:top-11 
+        ${visible?'navitemsSm':"navitemshidden"}`}>
         {/* // navitems bg-white flex flex-col gap-3 lg:flex-row items-center justify-between 
-          //  my-12 py-2 sm:my-2 lg:static absolute w-full top-3 sm:top-11"
-          <a href="#" className="redOnHover pt-10 sm:pt-0">Home</a> */}
+          //  my-12 py-2 sm:my-2 lg:static absolute w-full top-3 sm:top-11"*/}
+          <a href="#" className="redOnHover pt-10 sm:pt-0">Home</a> 
           <a href="#" className="redOnHover py-1 pt-4 lg:pt-0">About</a>
           <a href="#" className="redOnHover py-1">Capabilities</a>
           <a href="#" className="redOnHover py-1">Research</a>

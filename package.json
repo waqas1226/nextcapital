@@ -1,5 +1,6 @@
 {
-  "name": "http://waqas1226.github.io/nextcapital",
+  "name":"nextcapital",
+  "homepage": "http://waqas1226.github.io/nextcapital",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

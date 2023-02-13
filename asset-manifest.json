@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3c39bf4e.css",
+    "main.js": "/static/js/main.6575ebee.js",
+    "static/js/787.2df3984e.chunk.js": "/static/js/787.2df3984e.chunk.js",
+    "static/media/man.jpg": "/static/media/man.f0c8f7b1059f6f827b22.jpg",
+    "static/media/book.jpg": "/static/media/book.add8f21ff2854427b8eb.jpg",
+    "static/media/mobile.jpg": "/static/media/mobile.fbe61ca77b2d0d24bc1f.jpg",
+    "static/media/secp.jpg": "/static/media/secp.6313b6813109f43ba609.jpg",
+    "static/media/4.jpg": "/static/media/4.9f102b8580de5bf694f9.jpg",
+    "static/media/cdc.jpg": "/static/media/cdc.85c6e8b00482d28d6102.jpg",
+    "static/media/2.jpg": "/static/media/2.06e73391fa87113c81d4.jpg",
+    "static/media/ncc.jpg": "/static/media/ncc.b6f01f2d6e02c6999a9a.jpg",
+    "static/media/farm.jpg": "/static/media/farm.933a7fb32062148e9a8d.jpg",
+    "static/media/3.jpg": "/static/media/3.b9467a26f07b29a8d160.jpg",
+    "static/media/5.jpg": "/static/media/5.31fbcbc15ff5b12a6cf3.jpg",
+    "static/media/psx.jpg": "/static/media/psx.1534b194db558867edbb.jpg",
+    "static/media/6.jpg": "/static/media/6.0e820194d0d788f39d0c.jpg",
+    "static/media/icon.jpg": "/static/media/icon.d5c4d3f45e737e98f1a6.jpg",
+    "index.html": "/index.html",
+    "main.3c39bf4e.css.map": "/static/css/main.3c39bf4e.css.map",
+    "main.6575ebee.js.map": "/static/js/main.6575ebee.js.map",
+    "787.2df3984e.chunk.js.map": "/static/js/787.2df3984e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c39bf4e.css",
+    "static/js/main.6575ebee.js"
+  ]
+}
